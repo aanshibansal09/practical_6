@@ -1,0 +1,75 @@
+
+body {
+    font-family:  sans-serif;
+    background-color: #fcdcea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    height: 400px;
+    flex-direction: column;
+  
+  }
+  
+  h1 {
+    font-family: 'Tahoma';
+    font-size: 4rem;
+    color: #3D001B;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #66002E;
+  }
+
+  
+  .inactive {
+    display: none;
+  }
+  
+  #error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  input[type="text"], select {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    size: 3 rem ;
+    background-color: #3D001C;
+  }
+  
+  input[type="submit"]:hover {
+    size: 3 rem ;
+    background-color: #aa4b77;
+
+  }
+  
+ 
+  #menu {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
